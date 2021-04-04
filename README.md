@@ -16,8 +16,10 @@ Setup was a bit of a pain;
 	
 	conda install cuDNN=7.6.0
 	
-	Then with many incompatible dependency versions, I ended up with the package versions exported from pip freeze found in requirements.txt, which can be installed by python -m pip install -r requirements.txt
+Then with many incompatible dependency versions, I ended up with the package versions exported from pip freeze found in requirements.txt, which can be installed by
+
+	python -m pip install -r requirements.txt
 	
-	I can get to the training step, last I left it it was stuck on output "Epoch 1/12"
+I can get to the training step, last I left it it was stuck on output "Epoch 1/12"
 	
-	checkpoint.h5 too large to upload to github
+checkpoint.h5 too large to upload to github
